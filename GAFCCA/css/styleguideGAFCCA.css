@@ -1,0 +1,287 @@
+/* --------------------------------------------- */
+/* --------- Branding: Color Palette ----------- */
+/* --------------------------------------------- */
+/* These are the colors of the boxes under the Branding section */
+#swatch1{
+	background-color: #5e4735;
+}	
+#swatch2{
+	background-color: #7f1518;
+}	
+#swatch3{
+	background-color: #ffffff;
+}	
+#swatch4{
+	background-color: #cca86f;
+}		
+
+/* ----------------------------------------------------- */
+/* --------- Typography: Heading & Body Copy ----------- */
+/* ----------------------------------------------------- */
+/* These are the font families of all the headings and body copy */
+
+body{
+	font-family: Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: Perpetua, serif;
+    
+}
+
+
+/* -------------------------------------------------- */
+/* --------- Navigation: Main & Secondary ----------- */
+/* -------------------------------------------------- */
+/* Colors, style, floating, shapes, etc of main & secondary navs */
+
+/* Main Navigation Style */
+#mainnav{
+    padding: 0px;
+
+}
+#mainnav ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #7f1518;
+    height: 50px;
+}
+#mainnav li{
+    display: inline-block;
+	float: right;
+    padding: 15px;
+	    
+}
+#mainnav a:link{
+    color: #ffffff;
+    display: inline;
+    padding: 14px;
+    text-decoration: none;
+	/* other styles */
+}
+#mainnav a:visited{
+	color: #5e4735;
+	/* other styles */
+}
+#mainnav a:hover{
+    color: #7f1518;
+    background-color: #cca86f;
+	/* other styles */
+}
+#mainnav a:active{
+	color: #7f1518;
+    background-color: #cca86f;
+	/* other styles */
+}
+
+
+/* Secondary Navigation Style */
+#secondnav{
+
+}
+#secondnav ul{
+
+}
+#secondnav li{
+
+}
+#secondnav a:link{
+	color: #;
+	/* other styles */
+}
+#secondnav a:visited{
+	color: #;
+	/* other styles */
+}
+#maisecondnavnnav a:hover{
+	color: #;
+	/* other styles */
+}
+#secondnav a:active{
+	color: #;
+	/* other styles */
+}
+
+
+
+
+/* ----------------------------------- */
+/* --------- HTML Elements ----------- */
+/* ----------------------------------- */
+/* Styling for all HTML Elements */
+
+
+/* True for all headings */
+h1, h2, h3 ,h4, h5, h6{
+	color: #7f1518;
+    padding: .1em;
+    margin: .1em;
+}
+
+
+/* Style for individual headings */
+h1{
+  font-size: 3em;
+}
+
+h2{
+  font-size: 2.6em;
+}
+
+h3{
+  font-size: 2.2em;
+}
+
+h4{
+  font-size: 2em;
+}
+
+h5{
+  font-size: 1.8em;
+}
+
+h6{
+  font-size: 1.4em;
+}
+
+
+/* List Styles */
+ul{
+
+}
+ul li{
+
+}
+
+ol{
+
+}
+ol li{
+
+}
+
+
+/* Non-Navigational Link Styles */
+/* This is for all default links on your page */
+a:link{
+ color: #7f1518;
+}
+a:visited{
+  color: #5e4735;
+}
+a:hover{
+  color: #cca86f;
+}
+a:active{
+  color: #cca86f;
+}
+
+/* This is for secondary link styles (possibly in your footer, etc) */
+.linkstyle2 a:link{
+
+}
+.linkstyle2 a:visited{
+
+}
+.linkstyle2 a:hover{
+
+}
+.linkstyle2 a:active{
+
+}
+
+
+/* Paragraph Styles */
+p{
+	color: #000000;
+	text-align: justify;
+	letter-spacing: 1px;
+	/* Other paragraph styles */
+}
+
+
+/* Figure and Figcaption Styles */
+figure{
+     text-align: center;
+    width: 275px;
+        
+}
+figure img{
+border: 3px solid #5e4735;
+    margin-top: 25px;
+    width: 275px;
+    
+}
+figcaption{
+    color: #5e4735;
+    letter-spacing: 1px;
+    padding: 1em;
+    
+}
+
+img{
+    width: 650px;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------- */
+/* --------- Style Guide CSS ----------- */
+/* ------------------------------------- */
+/* The following CSS is used for the styling of the structure of the Style Guide itself */
+body{
+	width: 700px;
+	margin: 10px auto;
+	border: 1px solid #777;
+	padding: 20px;
+}
+
+.styleguide{
+	font-family: "Courier New", Courier, monospace;
+}
+h1.styleguide, h2.styleguide, h3.styleguide, h4.styleguide, h5.styleguide, h6.styleguide{
+	color: #777;
+	font-family: "Courier New", Courier, monospace;
+}
+h2.styleguide{
+    background-color: #777;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: -15px;
+    color: white;
+}
+p.styleguide{
+	color: #777;
+	font-family: "Courier New", Courier, monospace;
+}
+
+section{
+    margin-top: -10px;
+    margin-bottom: 70px; 
+}
+.colorgroup{
+    float: left;
+    width: 170px;
+}
+.colorgroup h4{
+	font-size: .9em;
+}
+.colorgroup p{
+    font-size: .8em;
+}
+.clear{
+    clear: both;
+}
+.swatches{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
