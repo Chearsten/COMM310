@@ -1,0 +1,109 @@
+body{
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Arial Black, Gadget, sans-serif; 
+	font-weight: bold;
+}
+
+/*==============Header============*/
+
+header{
+  background-color: #000000;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+
+header img{
+  margin-left: -100px;
+}
+
+header h1{
+  font-size: 1em;
+  color: white;
+  margin-top: -15px;
+  margin-left: 118px;
+  
+}
+
+/*==============Main Navigation============*/
+
+
+header nav ul {
+	background-color: #1f1f1f;
+	height: 40px;
+  font-weight: bold;
+	list-style-type: none;
+  padding-top: 20px;
+  margin: 0px;
+}
+
+header nav li{
+	display: inline;
+	padding-right: 20px;
+  
+}
+
+/*==============LINK STYLE============*/
+
+nav a:link {
+	color: #cca756;
+	text-decoration: none;
+}
+nav a:visited {
+	color: #cca756;
+	text-decoration: none;
+}
+nav a:hover {
+	color: grey;
+	text-decoration: none;
+}
+nav a:active {
+	color: white;
+	text-decoration: none;
+}
+
+/*==============MAIN STYLE============*/
+
+main{
+    background-color: #e7d79b;
+  padding-left: 30px;
+	margin-top: 0px;
+	border: 1px solid #000000;
+}
+
+blockquote{
+  background-color: black;
+  color: #cca756;
+  padding: 20px;
+  width: 350px;
+	border-radius: 10px;
+		
+	-moz-box-shadow: -2px 2px 4px #000000;
+	-webkit-box-shadow: -2px 2px 4px #000000;
+	box-shadow: -2px 2px 4px #000000;
+}
+
+
+footer{
+    text-align: center;
+	background-color: #000000;
+	padding: 10px;
+	margin: 0px 0px 20px 0px;
+	border-bottom-right-radius: 20px 20px;
+	border-bottom-left-radius: 20px 20px;
+	color: #cca756;
+	font-size: 11px;
+}
+
+footer #important{
+	text-transform: uppercase;
+	color: white;
+	
+}
