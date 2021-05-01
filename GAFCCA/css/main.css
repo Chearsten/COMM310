@@ -16,7 +16,8 @@ header h3{
 }
 
 body {
-    background-image: url("img/RedCrayonDrawing2.jpg");
+   /*background-image: url("img/RedCrayonDrawing2.jpg");*/
+    background-color: #fbdfdb;
     background-repeat:no-repeat;
     background-size:cover;
    	
